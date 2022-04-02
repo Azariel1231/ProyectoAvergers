@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Blog</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Avengers</a>
+    </div>
+    
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="#travel">Acerca de : Avengers</a></li>
+        <li><a href="#movies">Películas</a></li>
+        <li><a href="#books">Juegos</a></li>
+        <li><a href="#contact">Comics</a></li>
+      </ul>
+    </div>
+
+</nav>
+  
+<div class="container">
+	
+  	<h2 class="page-header" id="travel">Destinos que tienes que visitar</h2>
+    
+  	<center>
+  		<div class="travel_mainDiv"> 
+  			<img src="Avengers1.jpeg">
+
+  			<h4 class="text-capitalize"><kbd>historia</kbd></h4>
+  			
+  			<hr>
+
+  			<h5 class="text-success text-capitalize" >
+          Conoce mas sobre ellos</h5>
+
+  			<p class="text-muted" >Los Vengadores (en inglés Avengers; Invencibles del siglo XX en antiguas traducciones de México realizadas por Editorial La Prensa)2​3​ son un equipo ficticio de superhéroes que aparecen en los cómics estadounidenses publicados por Marvel Comics. El equipo hizo su debut en The Avengers #1 (septiembre de 1963),4​creado por el escritor y editor[cita requerida] Stan Lee y el artista/copiloto Jack Kirby. Los Vengadores es la renovación de Lee y Kirby de un equipo anterior de superhéroes, Escuadrón Todos los Ganadores, que apareció en la serie de cómics publicada por el predecesor de Marvel Comics, Timely Comics. </p>
+  		</div>
+  	</center>
+
+<br><br>
+
+  	<center>
+  		<div  class="travel_mainDiv"> 
+  			<img src="creador2.jpeg">
+
+  			<h4 class="text-capitalize"><kbd>Creador de los Avengers</kbd></h4>
+  			
+  			<hr >
+
+  			<h5 class="text-success text-capitalize" >Stan Lee</h5>
+
+  			<p class="text-muted " >Stanley Martin Lieber (Manhattan, Nueva York; 28 de diciembre de 1922-Los Ángeles, California; 12 de noviembre de 2018),1​ más conocido como Stan Lee, fue un escritor y editor de cómics estadounidense, además de productor y actor ocasional de cine.</p>
+  		</div>
+  	</center>
+
+
+<h2 class="page-header" id="movies">Reseñas de películas</h2>
+
+<div class="bg-primary movie_head" data-toggle="collapse" data-target="#avengers_endgame" >
+    <span class="glyphicon glyphicon-film" ></span> Avengers Endgame<i class="fa fa-sort-desc" ></i>
+  </div>
+
+  <div id="avengers_endgame" class="collapse">
+
+	  <div class="movie_text" >
+        <img src="movie1.jpeg" class="img-responsive img-thumbnail"> 
+		  <h5 class="text-success text-capitalize">Excelente Manera De Concluir La Saga Del MCU.
+        <span class="glyphicon glyphicon-star" ></span>
+        <span class="glyphicon glyphicon-star" ></span>
+        <span class="glyphicon glyphicon-star" ></span>
+        <span class="glyphicon glyphicon-star" ></span>
+        <span class="glyphicon glyphicon-star" ></span>
+      </h5>
+		  <p>Vi la película hoy con mis hijos y les encantó. Eso sí, debes de tener al menos un conocimiento básico de lo que pasó en las películas anteriores o no entenderás el 40 % de la película. 
+        Antes de ver Endgame, tienes que ver Infinity War, Civil War, Black Panther, Age of Ultron, Ant-Man and the Wasp. Esta película es un homenaje a todos los filmes de superhéroes de Marvel. 
+        Te encantará. Al inicio de la película (aquí viene un pequeño spoiler) hay una decapitación muy impresionante. Esta es la película de ciencia ficción más hablada y popular. 
+        En la película, podrás ver cómo los Vengadores se unen una vez más para revertir los acontecimientos que causó Thanos y regresar el balance al universo. 
+        Esta película es muy larga, dura alrededor de 3 horas.</p>
+	  </div>
+  
+  </div>
+
+  <div class="bg-primary movie_head" data-toggle="collapse" data-target="#the_lion_king" >
+    <span class="glyphicon glyphicon-film" ></span> Avengers Infinity War<i class="fa fa-sort-desc" ></i>
+  </div>
+
+  <div id="the_lion_king" class="collapse">
+  	<div class="movie_text">
+       <img src="movie2.jpeg" class="img-responsive img-thumbnail" >
+
+	   <h5 class="text-success text-capitalize">Buena Película Para Los Niños. 
+       <span class="glyphicon glyphicon-star" ></span>
+       <span class="glyphicon glyphicon-star" ></span>
+       <span class="glyphicon glyphicon-star" ></span>
+     </h5>
+	   <p>Avengers: Infinity War es todo lo que podíamos haber esperado y mucho más. La culminación perfecta para una década de planeación. En las manos incorrectas o en el momento equivocado pudo haber sido un desastre… pero el destino quería que nos encontráramos ante la mejor película del Universo Cinematográfico de Marvel.</p>
+  	</div>
+  </div>
+
+
+  <h2 class="page-header" id="books">Lista de Comics  </h2>
+
+  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 book">
+    <img src="s1.jpeg" class="img-responsive">
+    <hr>
+    <a href="https://www.amazon.com.mx/Origins-Marvel-Comics-English-Lente-ebook/dp/B07F6ZHQ4G">First Space Encyclopaedia</a>
+  </div>
+
+
+  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 book">
+    <img src="s2.jpeg" class="img-responsive">
+    <hr >
+    <a href="https://rpp.pe/cultura/mas-cultura/marvel-avengers-cual-es-el-origen-comics-historia-del-grupo-superheroes-en-historietas-stan-lee-personajes-los-vengadores-noticia-1261310">Capitan America Lives Again</a>
+  </div>
+
+    
+<section id="contact">
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15078.353856082635!2d72.8906491!3d19.1257017!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xacf72f56793d190a!2sWHITEHAT%20EDUCATION%20TECHNOLOGY%20PVT%20LTD!5e0!3m2!1sen!2sin!4v1573468987088!5m2!1sen!2sin" height="450" frameborder="0"  allowfullscreen=""></iframe>
+
+  <hr>
+  <img src="kid.jpeg" class="img-responsive img-circle col-lg-3 col-md-3 col-sm-3 col-xs-4">
+  <h3>Azariel Amir</h3>
+
+        <div class="contact_1" >
+
+           <a href="mailto:my@gmail.com?Subject=Hi">
+               <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;mygmailid@gmail.com</h5>
+            </a> 
+
+           <a href="#"> 
+               <h5><i class="fa fa-instagram" ></i>&nbsp;&nbsp;myinstagramid</h5>
+            </a> 
+        </div>
+
+</section>
+
+  </div>
+
+
+</body>
+</html>
